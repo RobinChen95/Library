@@ -76,7 +76,7 @@ public class LoginServlet extends HttpServlet {
 		user = userdao.searchUserByIdCard(idCard);
 		 
 
-		String password=request.getParameter("password");
+		//String password1=request.getParameter("password");
 		
 		
 		user = userdao.searchUserByIdCard(idCard);
